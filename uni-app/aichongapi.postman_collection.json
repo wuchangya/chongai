@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "5992d90e-acb1-4afd-8026-bb8f7aa7c13e",
+		"name": "aichongapi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "{{baseurl}}/api/v1/pet/addpet",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "9a68755d67aced320f21beb8ab4f384b627918cf",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"pet_name\":\"12132\",\r\n    \"imglist\":[\r\n        {\r\n            \"id\": \"19\"\r\n        },\r\n        {\r\n            \"id\": \"20\"\r\n        }\r\n    ],\r\n    \"species\":\"ss\",\r\n    \"pet_age\":1,\r\n    \"pet_sex\":1,\r\n    \"pet_birthday\":\"1999-8-22\",\r\n    \"hobby\":\"1\",\r\n    \"character\":\"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseurl}}/api/v1/pet/addpet",
+					"host": [
+						"{{baseurl}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"pet",
+						"addpet"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

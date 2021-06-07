@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "user-list": "/components/user-list/user-list",
+    "load-more": "/components/common/load-more",
+    "no-thing": "/components/common/no-thing",
+    "uni-nav-bar": "/components/uni-ui/uni-nav-bar/uni-nav-bar"
+  }
+}

@@ -1,0 +1,1 @@
+<view><view class="flex align-center justify-center flex-column pt-4 pb-3"><image class="rounded-circle" style="width:300rpx;height:300rpx;" src="/static/common/nothing.png"></image><text class="font text-muted mt-2">{{"version "+version}}</text></view><uni-list-item vue-id="1cea7424-1" title="社区用户协议" bind:__l="__l"></uni-list-item></view>

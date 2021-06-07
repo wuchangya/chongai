@@ -1,0 +1,1 @@
+<view><view class="flex align-center p-2" hover-class="bg-light"><image class="rounded-circle" style="width:100rpx;height:100rpx;" src="{{petAvatar}}"></image><view class="flex flex-column flex-1 px-2"><text class="font-lg font-weight-bold text-dark">宠物昵称</text><text class="font text-muted">总帖子  今日发帖</text></view>详情<text class="iconfont icon-jinru"></text></view></view>
